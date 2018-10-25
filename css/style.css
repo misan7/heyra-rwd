@@ -5,6 +5,8 @@
     flex-direction: column;
 }
 
+/* Header */
+
 header {
     height: 10vh;
 }
@@ -22,8 +24,10 @@ header {
     width: 25px;
 }
 
-section {
-    height: 50vh;
+/* Section Top */
+
+section#top {
+    height: 55vh;
 }
 
 #top .big-question {
@@ -50,4 +54,30 @@ section {
     padding: 8px 20px;
     margin: 29px;
     border-radius: 30px;
+}
+
+/* Section Bottom */
+
+section#bottom {
+    background-color: #e0e0e0;
+    height: 35vh;
+}
+
+#bottom .user-input {
+    margin-top: 32px;
+    margin-left: 24px;
+    border: none;
+    padding: none;
+    width: 100%;
+}
+
+#bottom .user-input::placeholder {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 42px;
+    text-align: left;
+    background-color: #e0e0e0;
+    border-width: 0;
+    color: #858583;
 }
