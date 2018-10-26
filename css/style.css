@@ -60,7 +60,7 @@ section#top {
 
 section#bottom {
     background-color: #e0e0e0;
-    height: 35vh;
+    height: 29vh;
 }
 
 #bottom .user-input {
@@ -72,7 +72,7 @@ section#bottom {
 
 #bottom .user-input::placeholder {
     font-family: "SF Pro Text";
-    font-weight: 6 00;
+    font-weight: 600;
     font-size: 15px;
     line-height: 42px;
     text-align: left;
@@ -98,4 +98,22 @@ section#bottom {
 
 .circle-micro img {
     height: 60%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #e0e0e0;
+    height: 15vh;
+}
+
+.footer-menu-buttons {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+
+.footer-menu-buttons button,
+img {
+    height: 100%;
 }
