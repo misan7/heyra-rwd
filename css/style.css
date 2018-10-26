@@ -1,118 +1,126 @@
-#root {
-    background-image: linear-gradient(180deg, #e7e7e7, #efefef);
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
+      html,
+      body,
+      .viewport {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+      }
 
-/* Header */
+      #root {
+          background-image: linear-gradient(180deg, #e7e7e7, #efefef);
+          display: flex;
+          flex-direction: column;
+      }
 
-header {
-    height: 10vh;
-}
+      /* Header */
 
-#main-header .btn-menu {
-    height: 100%;
-    width: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+      header {
+          flex: 1;
+      }
 
-#main-header .btn-menu img {
-    height: 25px;
-    width: 25px;
-}
+      #main-header .btn-menu {
+          height: 100%;
+          width: 75px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
 
-/* Section Top */
+      #main-header .btn-menu img {
+          height: 25px;
+          width: 25px;
+      }
 
-section#top {
-    height: 55vh;
-}
+      /* Section Top */
 
-#top .big-question {
-    font-size: 37px;
-    font-weight: 700;
-    font-family: "SF Pro Text";
-    text-align: left;
-    color: #000;
-    height: 91px;
-    margin: 79px 24px 13px;
-    letter-spacing: -0.8px;
-    line-height: 1.25;
-}
+      section#top {
+          flex: 7;
+      }
 
-.question-cloud {
-    display: inline;
-    font-family: "SF Pro Text";
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 42px;
-    text-align: left;
-    color: #e8bb00;
-    background: #fff;
-    padding: 8px 20px;
-    margin: 29px;
-    border-radius: 30px;
-}
+      #top .big-question {
+          font-size: 37px;
+          font-weight: 700;
+          font-family: "SF Pro Text";
+          text-align: left;
+          color: #000;
+          height: 91px;
+          margin: 79px 24px 13px;
+          letter-spacing: -0.8px;
+          line-height: 1.25;
+      }
 
-/* Section Bottom */
+      .question-cloud {
+          display: inline;
+          font-family: "SF Pro Text";
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 42px;
+          text-align: left;
+          color: #e8bb00;
+          background: #fff;
+          padding: 8px 20px;
+          margin: 29px;
+          border-radius: 30px;
+      }
 
-section#bottom {
-    background-color: #e0e0e0;
-    height: 30vh;
-}
+      /* Section Bottom */
 
-#bottom .user-input {
-    margin: 32px 24px;
-    border: none;
-    padding: 0;
-    width: 40vh;
-}
+      section#bottom {
+          background-color: #e0e0e0;
+          flex: 4;
+      }
 
-#bottom .user-input::placeholder {
-    font-family: "SF Pro Text";
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 42px;
-    text-align: left;
-    background-color: #e0e0e0;
-    border-width: 0;
-    color: #858583;
-}
+      #bottom .user-input {
+          margin: 32px 24px;
+          border: none;
+          padding: 0;
+          width: 40vh;
+      }
 
-.circle-micro {
-    height: 53px;
-    width: 52px;
-    position: relative;
-    right: 26px;
-    float: right;
-    top: -112px;
-}
+      #bottom .user-input::placeholder {
+          font-family: "SF Pro Text";
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 42px;
+          text-align: left;
+          background-color: #e0e0e0;
+          border-width: 0;
+          color: #858583;
+      }
 
-.circle-micro img {
-    height: 60%;
-}
+      .circle-micro {
+          height: 53px;
+          width: 52px;
+          position: relative;
+          right: 26px;
+          float: right;
+          top: -112px;
+      }
 
-/* Footer */
+      .circle-micro img {
+          height: 60%;
+      }
 
-footer {
-    background-color: #e0e0e0;
-    height: 5vh;
-}
+      /* Footer */
 
-.footer-menu-buttons {
-    display: flex;
-    justify-content: center;
-    height: 10px;
-}
+      footer {
+          background-color: #e0e0e0;
+          flex: 0.5;
+      }
 
-.footer-menu-buttons button {
-    display: flex;
-    justify-content: center;
-}
+      .footer-menu-buttons {
+          display: flex;
+          justify-content: center;
+          height: 10px;
+      }
 
-.footer-menu-buttons button,
-img {
-    height: 100%;
-}
+      .footer-menu-buttons button {
+          display: flex;
+          justify-content: center;
+      }
+
+      .footer-menu-buttons button,
+      img {
+          height: 100%;
+      }
