@@ -60,7 +60,7 @@ section#top {
 
 section#bottom {
     background-color: #e0e0e0;
-    height: 29vh;
+    height: 30vh;
 }
 
 #bottom .user-input {
@@ -104,13 +104,18 @@ section#bottom {
 
 footer {
     background-color: #e0e0e0;
-    height: 15vh;
+    height: 5vh;
 }
 
 .footer-menu-buttons {
     display: flex;
     justify-content: center;
     height: 10px;
+}
+
+.footer-menu-buttons button {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-menu-buttons button,
