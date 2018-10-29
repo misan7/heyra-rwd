@@ -188,3 +188,53 @@ section#send {
   right: 2.5vh;
   bottom: 2.5vh;
 }
+
+/* --- History Root --- */
+
+.message-bot,
+.message-user {
+  display: inline;
+  font-family: "SF Pro Text";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+  color: #1a1a1a;
+  padding: 8px 20px;
+  margin: 12px;
+}
+
+.message-bot {
+  background-color: #cfcfcf;
+  border-radius: 3px 17px 17px 17px;
+  float: left;
+}
+
+.message-user {
+  background-color: #e0e0e0;
+  border-radius: 17px 17px 3px 17px;
+  float: right;
+}
+
+/* asdas */
+
+.messages {
+  padding: 0;
+}
+
+.msg-wp {
+  overflow: auto;
+  /* clearfix */
+  padding: 0 0.8em 0 0.8em;
+}
+
+/* .msg {
+  border: 1px solid #000;
+  border-radius: 0.6em;
+  background: yellow;
+  padding: 0.3em;
+  margin: 0;
+  float: left;
+  max-width: 65%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+} */
