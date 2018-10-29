@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.058 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aeaeae;
+      }
+    </style>
+  </defs>
+  <g id="navigation_bars" data-name="navigation bars" transform="translate(-371 1854) rotate(-90)">
+    <path id="left-arrow" class="cls-1" d="M40.182,87.125H6.207l8.107-8.107a1.818,1.818,0,1,0-2.571-2.571L.533,87.657a1.817,1.817,0,0,0,0,2.571L11.743,101.44a1.818,1.818,0,1,0,2.571-2.571L6.207,90.761H40.182a1.818,1.818,0,1,0,0-3.636Z" transform="translate(1812 295.086)"/>
+  </g>
+</svg>

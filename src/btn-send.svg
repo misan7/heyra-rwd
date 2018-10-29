@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.515 80.514">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e8bb00;
+      }
+
+      .cls-2 {
+        opacity: 0.12;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.14" stop-opacity="0.631"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.23" stop-color="#fff" stop-opacity="0.012"/>
+      <stop offset="0.36" stop-color="#fff" stop-opacity="0.039"/>
+      <stop offset="0.47" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.67" stop-color="#fff" stop-opacity="0.278"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0.412"/>
+      <stop offset="0.83" stop-color="#fff" stop-opacity="0.561"/>
+      <stop offset="0.91" stop-color="#fff" stop-opacity="0.741"/>
+      <stop offset="0.98" stop-color="#fff" stop-opacity="0.929"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="BtnSend" transform="translate(-2970 398)">
+    <path id="teal_circle" data-name="teal circle" class="cls-1" d="M40.257,0A40.257,40.257,0,1,1,0,40.257,40.257,40.257,0,0,1,40.257,0Z" transform="translate(2970 -398)"/>
+    <g id="Group_331" data-name="Group 331" class="cls-2" transform="translate(2970 -398)">
+      <path id="gradient_border_2" data-name="gradient border 2" class="cls-3" d="M3443.257,959.719a39.538,39.538,0,1,1-39.538,39.538,39.538,39.538,0,0,1,39.538-39.538m0-.719a40.257,40.257,0,1,0,40.258,40.257A40.257,40.257,0,0,0,3443.257,959Z" transform="translate(-3403.001 -959)"/>
+      <path id="gradient_border_1" data-name="gradient border 1" class="cls-4" d="M3443.257,959.719a39.538,39.538,0,1,1-39.538,39.538,39.538,39.538,0,0,1,39.538-39.538m0-.719a40.257,40.257,0,1,0,40.258,40.257A40.257,40.257,0,0,0,3443.257,959Z" transform="translate(-3403.001 -959)"/>
+    </g>
+    <g id="_60525" data-name="60525" transform="translate(2998.845 -408.863)">
+      <g id="send" transform="translate(0 38.25)">
+        <path id="Path_10" data-name="Path 10" class="cls-5" d="M0,63.225,29.138,50.738,0,38.25v9.713l20.813,2.775L0,53.513Z" transform="translate(0 -38.25)"/>
+      </g>
+    </g>
+  </g>
+</svg>
