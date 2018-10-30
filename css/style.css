@@ -52,7 +52,6 @@ section#top {
   font-family: "SF Pro Text";
   text-align: left;
   color: #000;
-  height: 91px;
   margin: 79px 24px 13px;
   letter-spacing: -0.8px;
   line-height: 1.25;
@@ -130,7 +129,7 @@ input[type=text] {
 
 footer {
   background-color: #e0e0e0;
-  flex: 1;
+  flex: 1.5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,7 +256,21 @@ hr.date-line {
 
 /* --- Question Root --- */
 
-/* Footer */
+/* Header */
+
+#main-header .btn-menu-center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-header .btn-menu-center img {
+  height: 25px;
+  width: 30px;
+}
+
+/* Bottom */
 
 .question-box {
   display: flex;
@@ -274,4 +287,18 @@ button.question-btn {
   margin: 9px 20px 9px 20px;
   border-radius: 10px;
   letter-spacing: .93px;
+}
+
+/* Footer */
+
+.arrow-right {
+  position: absolute;
+  right: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+footer .arrow-right img {
+  height: 25px;
+  width: 25px;
 }
