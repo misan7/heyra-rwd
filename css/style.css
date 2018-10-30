@@ -133,6 +133,7 @@ footer {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .footer-menu-buttons img {
@@ -142,10 +143,6 @@ footer {
 
 .footer-menu-buttons .footer-btn {
   margin: 3px;
-}
-
-.footer-menu-buttons a,
-img {
 }
 
 /* --- Keyboard Root ---*/
@@ -256,4 +253,24 @@ hr.date-line {
   background-color: #e0e0e0;
   border-radius: 17px 17px 3px 17px;
   float: right;
+}
+
+/* --- Question Root --- */
+
+/* Footer */
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button.question-btn {
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  background-color: #fff;
+  color: #858583;
+  padding: 20px;
+  margin: 9px 20px 9px 20px;
+  border-radius: 10px;
 }
