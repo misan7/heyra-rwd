@@ -270,7 +270,7 @@ hr.date-line {
   width: 30px;
 }
 
-/* Bottom */
+/* Section Bottom */
 
 .question-box {
   display: flex;
@@ -301,4 +301,12 @@ button.question-btn {
 footer .arrow-right img {
   height: 25px;
   width: 25px;
+}
+
+/* --- root-events-availables-1 --- */
+
+/* Section Events */
+
+#events {
+  flex: 10;
 }
