@@ -103,7 +103,8 @@ section#bottom {
 #bottom .user-input,
 input[type=text] {
   background-color: #e0e0e0;
-  color: #858583;
+  color: #000;
+  font-weight: 600;
 }
 
 #bottom .user-input::placeholder {
