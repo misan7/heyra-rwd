@@ -43,6 +43,7 @@ header {
 /* Section Top */
 
 section#top {
+  overflow: auto;
   flex: 7;
 }
 
